@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+h2{
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+h3, h4, p {
+  text-align: left;
+  margin-top: 0;
+  padding-top: 0;
+}
+.container {
+  width: 700px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 10px;
+}
+.tab-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.underline {
+  width: 50px;
+  height: 2px;
+  background-color: hsl(36, 96%, 40%);
+}
+.details {
+  width: 70%;
+  margin-left: 50px;
+  margin-top: 0;
+  padding-top: 0;
+}
+.duty {
+  display: flex;
+}
+.duty-p {
+  margin-left: 15px;
+}
+.btn-container {
+  margin-right: 20px;
+
+}
+
+.btn {
+  width: 100px;
+  padding: 5px 10px;
+  border: none;
+  background: transparent;
+  border-color: transparent;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  outline-color:  hsl(186, 100%, 94%);
+}
+.active-btn {
+  width: 100px;
+  border-top: transparent;
+  border-bottom: transparent;
+  border-right: transparent;
+  border-left: 2px solid hsl(36, 96%, 40%);;
+  padding: 5px 10px;
+  background-color: transparent;
+  outline: none;
+  color: hsl(22, 96%, 40%);
+  box-shadow: 1px 2px 3px rgba(201, 198, 198, 0.8);
+
+}
+.btn:hover {
+  color:  hsl(22, 96%, 40%);
+  border-left: 2px solid  hsl(36, 96%, 40%);
+}
+.btn:active {
+  color:  hsl(22, 96%, 40%);
+  border-left: 2px solid  hsl(36, 96%, 40%);
+}
+.company {
+  width: 100px;
+  text-align: center;
+  background-color: hsl(36, 96%, 40%);
+}
+.icon {
+  color: hsl(36, 96%, 40%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 600px){
+  .container {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .details {
+    width: 100%;
+    margin-left: 0;
+  }
+  .btn-container {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .btn {
+    margin-left: 15px;
+  }
+}
