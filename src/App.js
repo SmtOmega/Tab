@@ -28,7 +28,7 @@ function App() {
     )
   }
 
-  const { id, company, dates, duties, title} = jobs[value]
+  const {  company, dates, duties, title} = jobs[value]
   return (
     <div className="App">
       <div className="tab-title">
